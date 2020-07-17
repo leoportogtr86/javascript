@@ -1,6 +1,6 @@
 const axios = require('axios')
 
-//chamada ajax para criar as estatisticas de assiduidade de alunos de determinado pro
+//chamada ajax para criar as estatisticas de assiduidade de alunos de determinado professor
 
 axios.get('https://chamadaescolademusica.herokuapp.com/joyce_aulas').then((res)=>{
 
