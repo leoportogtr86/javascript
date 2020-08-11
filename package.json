@@ -19,6 +19,12 @@
   "homepage": "https://github.com/leoportogtr86/javascript#readme",
   "dependencies": {
     "axios": "^0.19.2",
-    "cheerio": "^1.0.0-rc.3"
+    "cheerio": "^1.0.0-rc.3",
+    "fs": "0.0.1-security",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.25",
+    "nodemailer": "^6.4.11",
+    "nodemailer-express-handlebars": "^4.0.0",
+    "puppeteer": "^5.2.1"
   }
 }

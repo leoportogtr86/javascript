@@ -4,7 +4,7 @@ const cheerio = require('cheerio')
 
 
 
-axios.get('https://www.pokemon.com/br/pokedex/bulbasaur').then((res)=>{
+axios.get('https://www.pokemon.com/br/pokedex/pichu').then((res)=>{
 
     const $ = cheerio.load(res.data)
 
