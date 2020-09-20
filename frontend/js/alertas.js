@@ -32,3 +32,11 @@ if (res == true) {
 }
 
 console.log(res)
+
+
+let nome = prompt('Digite o seu nome')
+let idade = prompt('Digite a sua idade')
+let altura = prompt('Digite a sua altura')
+let peso = prompt('Digite o seu peso')
+
+alert(`Olá ${nome}, a sua idade é ${idade} anos\nVocê tem ${altura} de altura\nE seu peso é ${peso}`)
