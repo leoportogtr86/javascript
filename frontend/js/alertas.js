@@ -12,3 +12,13 @@ btn.onclick = function() {
     alert('Olá, eu sou um simples alerta!')
 
 }
+
+
+//caixa de confirmacao
+
+let res = confirm('Escolha uma opção')
+
+//retorna true ou false dependendo da resposta do usuario
+//ao clicar em ok (true) ou cancelar(false)
+
+console.log(res)
