@@ -5,25 +5,24 @@ let todos = []
 
 // executa uma função pra cada elemento do array
 
-carros.forEach((e)=>{
+carros.forEach((e) => {
 
     console.log(e)
 })
 
-pares.forEach((e)=>{
+pares.forEach((e) => {
 
     console.log('Ímpares ' + Number(e + 1))
 })
 
-impares.forEach((e)=>{
+impares.forEach((e) => {
 
     todos.push(e)
 })
 
-pares.forEach((e)=>{
+pares.forEach((e) => {
 
     todos.push(e)
 })
 
 console.log(todos)
-
