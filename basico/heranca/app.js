@@ -21,7 +21,7 @@ console.log(c1.__proto__)
 let ferrari = {}
 
 //outra forma de estabelecer ligacao com seu prototipo=>
-
+//ferrari herda de c1
 Object.setPrototypeOf(ferrari, c1)
 
 
