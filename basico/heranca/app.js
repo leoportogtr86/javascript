@@ -18,11 +18,11 @@ console.log(c1.__proto__)
 
 //objeto que herda de Carro
 
-let ferrari = {
+let ferrari = {}
 
-    __proto__: c1
+//outra forma de estabelecer ligacao com seu prototipo=>
 
-}
+Object.setPrototypeOf(ferrari, c1)
 
 
 ferrari.setMarca('ferrari')
