@@ -33,3 +33,32 @@ ferrari.setVel_max(340)
 console.log('--------------------------------------------')
 
 console.log(ferrari.toString());
+
+
+
+//outra forma de criar um objeto que herde de seu prototipo
+let pai = { nome: 'José', idade: 56, cor_cabelo: 'preto' }
+
+let filho = Object.create(pai)
+
+
+//agora na criacao do objeto, ja passamos os seus atributos como segundo parametro
+let filha = Object.create(pai, {
+
+    nome: {
+        value: 'Joana',
+        writable: false,
+        enumerable: true
+    },
+
+    idade: {
+        value: 15,
+        writable: false,
+        enumerable: true
+    }
+})
+
+filho.nome = 'Bill'
+filho.idade = 10
+
+console.log(`${filha.nome} tem ${filha.idade} anos.`)
