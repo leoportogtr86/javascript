@@ -1,3 +1,7 @@
+//referencias
+//https://medium.com/trainingcenter/heran%C3%A7a-e-prot%C3%B3tipos-no-javascript-2c1e60e005a2
+//https://www.udemy.com/course/curso-web/learn/lecture/9053628#overview
+
 const Carro = require('./entities/carro')
 
 let c1 = new Carro()
