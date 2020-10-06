@@ -5,8 +5,12 @@ utterance.lang = 'pt-br'
 let botao = document.getElementById('botao')
 let textArea = document.getElementById('textArea')
 
+
+//ao escrever o texto na textArea, iremos setar o texto do objeto utterance
 textArea.oninput = setText
 
+
+//funcao para setar o texto
 function setText(e) {
 
     utterance.text = e.target.value
@@ -15,6 +19,8 @@ function setText(e) {
 }
 
 botao.onclick = function () {
+
+    //funcao para falar o texto
 
     speechSynthesis.speak(utterance)
 
