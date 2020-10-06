@@ -9,22 +9,51 @@ const fs = require('fs')
 console.log(1)
 
 
-//ira processar todos os comandos de console.log primeiro
-//nao bloqueia a thread principal
+//criando uma promise
 
-fs.readFile('./doc/arquivo.txt', (err, res) => {
 
-    if (err) {
+const readFile = file => new Promise((resolve, reject) => {
 
-        console.log(err)
+    fs.readFile(file, (err, res) => {
 
-    } else {
+        if (err) {
 
-        console.log(res.toString())
-    }
+            reject(err)
+        } else {
+
+            resolve(res)
+        }
+
+
+    })
+})
+
+readFile('./doc/arquivo.txt').then((res) => {
+
+    console.log(res.toString())
 
 
 })
+
+
+
+
+//ira processar todos os comandos de console.log primeiro
+//nao bloqueia a thread principal
+
+// fs.readFile('./doc/arquivo.txt', (err, res) => {
+
+//     if (err) {
+
+//         console.log(err)
+
+//     } else {
+
+//         console.log(res.toString())
+//     }
+
+
+// })
 
 //
 
