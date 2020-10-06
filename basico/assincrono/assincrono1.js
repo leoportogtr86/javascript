@@ -28,13 +28,22 @@ const readFile = file => new Promise((resolve, reject) => {
     })
 })
 
-readFile('./doc/arquivo.txt').then((res) => {
 
-    console.log(res.toString())
+const init = async () => {
+
+    try {
+
+        const res = await readFile('./doc/arquivo.txt')
+        console.log(res.toString())
 
 
-})
+    } catch (err) {
 
+        console.log(err)
+    }
+}
+
+console.log(init())
 
 
 
