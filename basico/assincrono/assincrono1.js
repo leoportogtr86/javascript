@@ -26,7 +26,7 @@ fs.readFile('./doc/arquivo.txt', (err, res) => {
 
 })
 
-
+//
 
 console.log(2)
 
