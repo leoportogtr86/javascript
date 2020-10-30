@@ -1,5 +1,10 @@
+//referencia
+//https://www.youtube.com/watch?v=XlNLjG2c9uM
+
 const utterance = new SpeechSynthesisUtterance()
 utterance.lang = 'pt-br'
+
+
 
 
 let botao = document.getElementById('botao')

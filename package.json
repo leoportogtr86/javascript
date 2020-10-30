@@ -25,6 +25,7 @@
     "mongoose": "^5.9.25",
     "nodemailer": "^6.4.11",
     "nodemailer-express-handlebars": "^4.0.0",
-    "puppeteer": "^5.2.1"
+    "puppeteer": "^5.2.1",
+    "videojs-youtube": "^2.6.1"
   }
 }
