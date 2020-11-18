@@ -1,0 +1,5 @@
+ScrollReveal().reveal('.txt1', { delay: 1000 })
+ScrollReveal().reveal('.txt2', { delay: 2000 })
+ScrollReveal().reveal('.txt3', { delay: 3000 })
+ScrollReveal().reveal('.txt4', { delay: 4000 })
+ScrollReveal().reveal('.paragrafo')
