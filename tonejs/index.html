@@ -16,7 +16,8 @@
 <body>
     <h1 class="text-center text-danger m-4">Hello, Tone Js!</h1>
 
-    <button class="btn btn-danger m-5" id="play">Play</button>
+    <button class="btn btn-danger m-5" id="play">Escala de C</button>
+    <button class="btn btn-warning m-5" id="acorde">C Maior</button>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -36,8 +37,10 @@
 
     <script>
 
-        const synth = new Tone.Synth().toDestination()
+        const synth = new Tone.PolySynth(Tone.synth).toDestination()
         let play = document.getElementById('play')
+        let acorde = document.getElementById('acorde')
+        const c_maior = ['C4', 'E4', 'G4', 'B4']
 
         play.onclick = () => {
 
@@ -49,9 +52,16 @@
             synth.triggerAttackRelease('A4', '8n', now + 2.5)
             synth.triggerAttackRelease('B4', '8n', now + 3)
             synth.triggerAttackRelease('C5', '8n', now + 3.5)
+
+
         }
 
         const now = Tone.now()
+
+        acorde.onclick = () => {
+
+            synth.triggerAttackRelease(c_maior, '4n')
+        }
 
 
 
