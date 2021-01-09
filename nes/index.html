@@ -9,10 +9,22 @@
     <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
     <!-- latest -->
     <link rel="stylesheet" href="./css//style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        html,
+        body,
+        pre,
+        code,
+        kbd,
+        samp {
+            font-family: 'Press Start 2P', cursive;
+        }
+    </style>
 </head>
 
 <body>
-    <span class="nes-text is-primary" style="font-family: kongtext;">Leo Porto</span>
+    <span class="nes-text is-primary">Leo Porto</span>
     <button type="button" class="nes-btn is-primary">Primary</button>
     <button type="button" class="nes-btn is-danger">Primary</button>
 
@@ -61,7 +73,47 @@
     <progress class="nes-progress is-warning" value="30" max="100"></progress>
     <progress class="nes-progress is-error" value="10" max="100"></progress>
     <progress class="nes-progress is-pattern" value="50" max="100"></progress>
+    <img class="nes-avatar" alt="Gravatar image example"
+        src="data:image/jpeg;base64,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"
+        style="image-rendering: pixelated;">
 
+    <img class="nes-avatar is-small" alt="Gravatar image example" src="https://www.gravatar.com/avatar?s=15"
+        style="image-rendering: pixelated;">
+    <img class="nes-avatar is-medium" alt="Gravatar image example" src="https://www.gravatar.com/avatar?s=15"
+        style="image-rendering: pixelated;">
+    <img class="nes-avatar is-large" alt="Gravatar image example" src="https://www.gravatar.com/avatar?s=15"
+        style="image-rendering: pixelated;">
+
+
+    <img class="nes-avatar is-rounded" alt="Gravatar image example" src="https://www.gravatar.com/avatar?s=15"
+        style="image-rendering: pixelated;">
+
+    <img class="nes-avatar is-rounded is-small" alt="Gravatar image example" src="https://www.gravatar.com/avatar?s=15"
+        style="image-rendering: pixelated;">
+    <img class="nes-avatar is-rounded is-medium" alt="Gravatar image example" src="https://www.gravatar.com/avatar?s=15"
+        style="image-rendering: pixelated;">
+    <img class="nes-avatar is-rounded is-large" alt="Gravatar image example" src="https://www.gravatar.com/avatar?s=15"
+        style="image-rendering: pixelated;">
+
+    <section class="nes-container">
+        <section class="message-list">
+            <section class="message -left">
+                <i class="nes-bcrikko"></i>
+                <!-- Balloon -->
+                <div class="nes-balloon from-left">
+                    <p>Oi, Davi Porto.</p>
+                </div>
+            </section>
+
+            <section class="message -right">
+                <!-- Balloon -->
+                <div class="nes-balloon from-right">
+                    <p>Oi, papai Leo.</p>
+                </div>
+                <i class="nes-bcrikko"></i>
+            </section>
+        </section>
+    </section>
 
 </body>
 

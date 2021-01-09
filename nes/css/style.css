@@ -1,18 +1,6 @@
-@font-face{
-
-    font-family: kongtext;
-    src: '../font/kongtext/kongtext.ttf'
-}
-
-@font-face{
-
-    font-family: press_start;
-    src: './Press_Start_2P/PressStart2P-Regular.ttf';
-}
-
 body{
 
-    font-family: press_start;
+    font-family: 'press';
     font-weight: bold;
     font-size: 20px;
 }
