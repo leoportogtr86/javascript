@@ -11,6 +11,16 @@ h1{
     margin: 100px;
 }
 
+.row{
+
+    flex-direction: row;
+}
+
+.col{
+
+    flex-direction: column;
+}
+
 .quadrado{
 
     background-color: red;
