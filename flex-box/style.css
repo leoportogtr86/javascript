@@ -15,6 +15,13 @@ body{
 
     display: flex;
     margin: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap{
+
+    flex-wrap: wrap;
 }
 
 .row{
