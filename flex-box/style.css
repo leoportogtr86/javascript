@@ -1,7 +1,13 @@
 h1{
 
-    color: rgb(100, 7, 100);
+    color: rgb(201, 125, 201);
     text-align: center;
+}
+
+body{
+
+    background-color: #222 ;
+    color: white;
 }
 
 
@@ -16,6 +22,16 @@ h1{
     flex-direction: row;
 }
 
+.row-reverse{
+
+    flex-direction: row-reverse;
+}
+
+.col-reverse{
+
+    flex-direction: column-reverse;
+}
+
 .col{
 
     flex-direction: column;
@@ -23,8 +39,9 @@ h1{
 
 .quadrado{
 
-    background-color: red;
+    background-color: rgb(207, 88, 88);
     width: 60px;
     height: 60px;
     margin: 10px;
+    border-radius: 5px;
 }
