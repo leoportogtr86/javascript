@@ -160,3 +160,14 @@ let imacpro = computador('apple', 67099, 'imac pro', 'Os profissionais adoram o 
 
 
 console.log(imacpro.getDescricao())
+
+
+
+//objeto convertido de um JSON
+
+
+let fromJSON = JSON.parse('{"nome":"Leo", "idade": 34, "genero":"masculino"}')
+
+
+console.log(fromJSON)
+
