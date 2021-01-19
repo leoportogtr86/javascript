@@ -57,3 +57,55 @@ console.log(iphone12)
 
 
 console.log(iphone12.enviarMensagem('Bom dia...'))
+
+
+
+//funcao construtora com atributos publicos e privados
+
+function Notebook(marca, modelo) {
+
+
+    this.marca = marca
+    this.modelo = modelo
+    let preco
+    let descricao
+
+
+    this.getPreco = () => {
+
+        return preco
+    }
+
+
+    this.setPreco = (p) => {
+
+        preco = p
+
+    }
+
+
+
+    this.getDescricao = () => {
+
+        return descricao
+    }
+
+
+    this.setDescricao = (d) => {
+
+        descricao = d
+
+    }
+
+}
+
+
+//instanciando objeto
+
+let macbook = new Notebook('apple', 'macbook air')
+
+macbook.setPreco(12999)
+macbook.setDescricao('Com o chip M1 da Apple, nosso notebook mais fino e leve ficou irreconhecível. Por dentro. A CPU e a GPU estão mais rápidas, até 3,5 vezes e até cinco vezes, respectivamente. Nosso Neural Engine mais avançado deixa o aprendizado de máquina até nove vezes mais veloz. A bateria oferece mais tempo de duração. E trocamos a ventoinha pelo silêncio. Nunca tanto desempenho esteve reunido em um MacBook Air.')
+
+
+console.log(macbook.getPreco())
