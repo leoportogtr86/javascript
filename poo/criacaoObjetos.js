@@ -9,3 +9,16 @@ let carro = {
 }
 
 console.log(carro)
+
+
+//instanciando via Object
+
+const guitarra = new Object({
+
+    marca: 'suhr',
+    preco: 7900,
+    cor: 'preta'
+})
+
+
+console.log(guitarra)
