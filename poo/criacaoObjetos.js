@@ -109,3 +109,54 @@ macbook.setDescricao('Com o chip M1 da Apple, nosso notebook mais fino e leve fi
 
 
 console.log(macbook.getPreco())
+
+
+
+//funcao factory
+
+
+function computador(marca, preco, modelo, descricao) {
+
+
+    //retorna o "molde" do objeto
+
+    return {
+
+        marca,
+        preco,
+        modelo,
+        descricao,
+
+        getMarca() {
+
+            return marca
+
+        },
+
+        getPreco() {
+
+            return preco
+
+        },
+
+        getModelo() {
+
+            return modelo
+
+        },
+
+        getDescricao() {
+
+            return descricao
+
+        }
+    }
+
+}
+
+//criando objeto via funcao factory
+
+let imacpro = computador('apple', 67099, 'imac pro', 'Os profissionais adoram o iMac. Por isso, criamos um só para eles. Unimos os processadores e chips gráficos poderosos às mais avançadas tecnologias de armazenamento, memória e conexões. E colocamos todo esse poder entre uma tela Retina 5K sensacional e um design tudo em um elegante. Com o iMac Pro, fotógrafos, editores de vídeo, animadores 3D, músicos, desenvolvedores de software e até cientistas vão transformar suas melhores ideias em trabalhos incríveis.')
+
+
+console.log(imacpro.getDescricao())
