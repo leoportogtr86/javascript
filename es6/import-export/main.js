@@ -1,13 +1,5 @@
-import Cliente from './models/Cliente.js'
-import Carro from './models/Carro.js'
+import quadrado from './functions/quadrado.js'
+import triplo from './functions/triplo.js'
 
-
-let c1 = new Cliente('Zeca', 45)
-
-console.log(c1.falar())
-
-
-let carro1 = new Carro('land rover', 'range rover evoque', 345000)
-
-console.log(carro1)
-console.log(carro1.andar())
+console.log(quadrado(9))
+console.log(triplo(9))
