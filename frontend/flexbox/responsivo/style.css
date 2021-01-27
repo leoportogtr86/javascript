@@ -1,0 +1,46 @@
+body{
+
+    background-color: #222;
+}
+
+h1{
+
+    color: blue;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 360px){
+
+    h1{
+
+        font-size: 35px;
+        color: red;
+        
+    }
+
+    body{
+
+        background-color: rgb(71, 68, 68);
+    }
+
+}
+
+
+@media screen and (max-width: 500px) and (min-width: 360px){
+
+    h1{
+
+        font-size: 35px;
+        color: rgb(0, 140, 255);
+        
+    }
+
+    body{
+
+        background-color: rgb(211, 197, 197);
+    }
+
+
+}
