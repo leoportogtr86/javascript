@@ -13,3 +13,8 @@ const { nome, empresa, funcao, dataInicio, tecnologias, salario } = funcionario
 
 
 console.log(nome)
+
+
+const { nome: nomeCompleto, empresa: firma, funcao: cargo } = funcionario
+
+console.log(nomeCompleto, firma, cargo)
