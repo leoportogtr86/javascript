@@ -9,33 +9,18 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href=".//css/loading-bar.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Hello, world!</title>
-
-    <style>
-        #gif {
-
-            width: 70%;
-            margin-left: auto;
-            margin-right: auto;
-            display: block;
-        }
-    </style>
 </head>
 
 <body>
+    <h1 class="tracking-in-expand text-center text-danger m-5">Hello, world!</h1>
+    <h1 class="text-flicker-in-glow text-center text-primary m-5 heartbeat">Leo Porto</h1>
+    <img class="heartbeat"
+        src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.vexels.com%2Fpng-svg%2Fprevisualizar%2F136172%2Fcoracao-como-icone&psig=AOvVaw0xq-QGObuKxYV65ugFH-ZK&ust=1607359579696000&source=images&cd=vfe&ved=2ahUKEwiPnruX57ntAhVaCbkGHQoQBGYQr4kDegUIARCxAQ"
+        alt="">
 
-    <button class="btn btn-block btn-primary" id="botao">Play</button>
-
-    <img src="./assets/graphql.gif" id="gif" alt="">
-
-    <div class="text-center m-5">
-        <lottie-player id="animacao" class="d-none" src="https://assets6.lottiefiles.com/packages/lf20_b6czzob3.json"
-            background="transparent" speed="1" style="width: 200px; height: 200px;" autoplay></lottie-player>
-
-    </div>
-
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -46,24 +31,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-    <script src="./js/loading-bar.min.js"></script>
-
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <script src="./js/main.js"></script>
-
-    <script>
-
-        let botao = document.getElementById('botao')
-        let animacao = document.getElementById('animacao')
-
-
-        botao.onclick = () => {
-
-            animacao.classList.remove('d-none')
-        }
-
-
-    </script>
 </body>
 
 </html>

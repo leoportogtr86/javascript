@@ -9,8 +9,12 @@ let btn = document.getElementById("btn")
 
 let btn2 = btn.cloneNode(true)
 
+
+
+
 document.body.appendChild(btn2)
 
+console.log(btn2)
 
 //paragrafos não é um array e sim um HTML collection, para manipulacao
 //dele como array, precisamos transformá-lo em array
