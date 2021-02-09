@@ -2,11 +2,13 @@ const axios = require('axios')
 
 axios.get('https://chamadaescolademusica.herokuapp.com/debora_aulas').then((res) => {
 
-    let rafael = res.data.filter((e) => {
+    // console.log(res.data)
 
-        return e.nome == "Rafael Medeiros" && e.presenca == "nao ❌"
+    let data = res.data.filter((e) => {
+
+        return e.data == "20/10"
     })
 
-    console.log(rafael)
+    console.log(data)
 
 })

@@ -1,7 +1,17 @@
+
+
+
 $(document).ready(() => {
 
     console.log('hello world')
     let botao = $('#botao')
+
+    let estilo = {
+
+        color: 'pink',
+        backgroundColor: 'black',
+        fontSize: '40px'
+    }
 
 
     let titulo = $('#titulo')
@@ -9,21 +19,18 @@ $(document).ready(() => {
 
     titulo.css('color', 'blue')
 
-    setTimeout(() => {
 
-        titulo.css('color', 'red')
 
-    }, 3000);
-
-    $(document).click(() => {
-
-        titulo.css('backgroundColor', 'yellow')
-    })
 
     botao.click(() => {
 
-        botao.animate({ left: '500px' })
+        console.log('click')
+
+
+        titulo.animate({ opacity: '0.5', color: 'red' }, { duration: 5000 })
     })
+
+
 
 
 })

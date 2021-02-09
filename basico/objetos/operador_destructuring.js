@@ -13,10 +13,11 @@ let c = {
     sexta_menor: 'Ab',
     sexta_aumentada: 'A#',
     setima_menor: 'Bb',
-    setima_maior: 'B'
+    setima_maior: 'B',
+    triade_maior: 'C E G',
+    triade_menor: 'C Eb G',
+    triade_aumentada: 'C E G#',
+    triade_diminuta: 'C Eb Gb'
 }
 
 
-let { tonica, terca_maior, quinta_justa } = c
-
-console.log(tonica, terca_maior, quinta_justa)

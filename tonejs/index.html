@@ -16,8 +16,14 @@
 <body>
     <h1 class="text-center text-danger m-4">Hello, Tone Js!</h1>
 
-    <button class="btn btn-danger m-5" id="play">Escala de C</button>
-    <button class="btn btn-warning m-5" id="acorde">C Maior</button>
+
+    <button class="btn btn-warning m-5" id="c">C</button>
+    <button class="btn btn-warning m-5" id="d">Dm</button>
+    <button class="btn btn-warning m-5" id="e">Em</button>
+    <button class="btn btn-warning m-5" id="f">F</button>
+    <button class="btn btn-warning m-5" id="g">G</button>
+    <button class="btn btn-warning m-5" id="a">Am</button>
+    <button class="btn btn-warning m-5" id="b">B°</button>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -38,32 +44,63 @@
     <script>
 
         const synth = new Tone.PolySynth(Tone.synth).toDestination()
-        let play = document.getElementById('play')
-        let acorde = document.getElementById('acorde')
-        const c_maior = ['C4', 'E4', 'G4', 'B4']
-
-        play.onclick = () => {
-
-            synth.triggerAttackRelease('C4', '8n', now)
-            synth.triggerAttackRelease('D4', '8n', now + 0.5)
-            synth.triggerAttackRelease('E4', '8n', now + 1)
-            synth.triggerAttackRelease('F4', '8n', now + 1.5)
-            synth.triggerAttackRelease('G4', '8n', now + 2)
-            synth.triggerAttackRelease('A4', '8n', now + 2.5)
-            synth.triggerAttackRelease('B4', '8n', now + 3)
-            synth.triggerAttackRelease('C5', '8n', now + 3.5)
+        let c = document.getElementById('c')
+        let d = document.getElementById('d')
+        let e = document.getElementById('e')
+        let f = document.getElementById('f')
+        let g = document.getElementById('g')
+        let a = document.getElementById('a')
+        let b = document.getElementById('b')
 
 
-        }
+        const cMaior = ['C4', 'E4', 'G4']
+        const dm = ['D4', 'F4', 'A4']
+        const em = ['E4', 'G4', 'B4']
+        const fMaior = ['F4', 'A4', 'C5']
+        const gMaior = ['G4', 'B4', 'D5']
+        const am = ['A4', 'C5', 'E5']
+        const bdim = ['B4', 'D5', 'F5']
+
+
 
         const now = Tone.now()
 
-        acorde.onclick = () => {
+        c.onclick = () => {
 
-            synth.triggerAttackRelease(c_maior, '4n')
+            synth.triggerAttackRelease(cMaior, '4n')
+        }
+
+        d.onclick = () => {
+
+            synth.triggerAttackRelease(dm, '4n')
+        }
+
+        e.onclick = () => {
+
+            synth.triggerAttackRelease(em, '4n')
+        }
+        f.onclick = () => {
+
+            synth.triggerAttackRelease(fMaior, '4n')
+        }
+        g.onclick = () => {
+
+            synth.triggerAttackRelease(gMaior, '4n')
+        }
+        a.onclick = () => {
+
+            synth.triggerAttackRelease(am, '4n')
         }
 
 
+        b.onclick = () => {
+
+            synth.triggerAttackRelease(bdim, '4n')
+        }
+
+        const mic = new Tone.UserMedia()
+
+        console.log(mic)
 
 
 

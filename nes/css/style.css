@@ -3,4 +3,5 @@ body{
     font-family: 'press';
     font-weight: bold;
     font-size: 20px;
+    text-transform: uppercase;
 }
