@@ -1,0 +1,40 @@
+:root{
+
+    --pretinho: #222;
+    --pretao: #181818;
+    --azulao: #06224A;
+    --azulzinho: #BDF1F3;
+    --azul: #8FBAF3;
+    --branco: #FFFFFF; 
+    --grande: 20px;
+    --media: 14px;
+    --pequena: 12px;
+}
+
+.center-block{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: var(--branco);
+}
+
+h1{
+
+    color: var(--azulao);
+    font-family: sans-serif;
+    text-align: center;
+}
+
