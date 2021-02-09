@@ -11,6 +11,29 @@
     --pequena: 12px;
 }
 
+
+@keyframes gira {
+
+    0%{
+
+        transform: rotate(0deg);
+    }
+
+    100%{
+
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes trocaCor {
+
+    100%{
+
+        stroke: red;
+        stroke-width: 40;
+    }
+}
+
 .center-block{
 
     display: block;
@@ -28,13 +51,27 @@
 
 body{
 
-    background-color: var(--branco);
+    background-color: var(--pretinho);
 }
 
 h1{
 
-    color: var(--azulao);
+    color: var(--azul);
     font-family: sans-serif;
     text-align: center;
 }
 
+
+
+svg{
+
+    animation: gira 2s linear infinite;
+    margin: auto;
+    display: block;
+    margin-top: 200px;
+}
+
+#haste{
+
+    animation: trocaCor 5s linear infinite;
+}
