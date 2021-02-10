@@ -5,7 +5,7 @@ Este repositório é destinado pra servir como um grande bloco de notas sobre os
 
 ## Temas:
 
-1. Javascript básica (sintaxe, operações, estruturas condicionais, arrays, objetos etc.)
-2. Frontend (temas relacionados a **HTML**, **CSS** e suas libs).
-3. Backend (temas relacionados ao **Node JS**, **Express**, **Bancos de dados** etc)
+* Javascript básica (sintaxe, operações, estruturas condicionais, arrays, objetos etc.)
+* Frontend (temas relacionados a **HTML**, **CSS** e suas libs).
+* Backend (temas relacionados ao **Node JS**, **Express**, **Bancos de dados** etc)
    
