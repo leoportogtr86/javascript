@@ -1,3 +1,5 @@
+![](https://www.themightycribb.com/wp-content/uploads/2016/08/gulpjs-logo.jpg)
+
 # Capítulo de Gulp do curso *WEB moderno*
 
 
