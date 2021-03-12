@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Self - CSS</title>
+
+    <style>
+        body {
+
+            background-color: #222;
+            color: wheat;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .container {
+
+            background-color: gray;
+            display: flex;
+            width: 500px;
+            height: 500px;
+            border-radius: 12px;
+        }
+
+        .item {
+
+            width: 70px;
+            height: 70px;
+            border-radius: 7px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+
+        }
+
+
+        .red {
+
+
+            background-color: rgb(202, 60, 60);
+            place-self: center enter;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Usando a Propriedade: Place Self</h1>
+
+    <h2>Container Flex</h2>
+
+    <div class="container">
+
+        <div class="item red"></div>
+
+
+    </div>
+
+
+
+</body>
+
+</html>

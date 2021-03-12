@@ -1,0 +1,138 @@
+body{
+
+    background-color: #1a1722ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.red-bars{
+
+    padding-top: 20px;
+}
+
+.red{
+
+    background-color: #ff0000ff;
+}
+
+.title{
+
+    color: #ff0000ff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.container{
+
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+.col{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.line{
+
+    width: 3px;
+    height: 60px;
+    margin: 30px;
+    background-color: #736f7dff;
+}
+
+.quadrado{
+
+    width: 20px;
+    height: 10px;
+    border-radius: 1px;
+    margin: 1px;
+}
+
+.deezer, .tim{
+
+    display: flex;
+}
+
+.orange{
+
+    background-color: #ff7a00ff;
+}
+
+.gradiente1{
+
+    background: rgb(239,150,21);
+    background: linear-gradient(118deg, rgba(239,150,21,1) 0%, rgba(253,93,31,1) 49%, rgba(245,0,54,1) 75%, rgba(215,0,78,1) 100%);
+}
+
+.gradiente2{
+
+    background: rgb(239,150,21);
+    background: linear-gradient(118deg, rgba(239,150,21,1) 0%, rgba(253,93,31,1) 31%, rgba(245,0,54,1) 55%, rgba(215,0,78,1) 100%);
+}
+
+.gradiente3{
+
+    background: rgb(204,0,102);
+    background: linear-gradient(118deg, rgba(204,0,102,1) 0%, rgba(175,0,117,1) 31%, rgba(149,0,128,1) 69%, rgba(129,15,132,1) 100%);
+}
+
+.gradiente4{
+
+    background: rgb(45,51,181);
+    background: linear-gradient(118deg, rgba(45,51,181,1) 0%, rgba(0,122,187,1) 26%, rgba(0,122,187,1) 100%);
+}
+
+.green{
+
+    background-color: #00bd5dff;
+}
+
+
+.retangulo{
+
+    background-color: #ff0000ff;
+    width: 50px;
+    height: 8px;
+    border-radius: 3px;
+    margin-bottom: 7px;
+
+}
+
+.justify-center{
+
+    justify-content: center;
+}
+
+.item-center{
+
+    align-items: center;
+}
+
+.mask{
+
+    background-color: #1a1722ff;
+    transform: rotate(90deg);
+    width: 80px;
+}
+
+.text-tim{
+
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
