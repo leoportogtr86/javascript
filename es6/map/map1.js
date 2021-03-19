@@ -31,4 +31,20 @@ console.log(mapa.get(array))
 console.log(mapa.get(objeto))
 console.log(mapa.get(funcao))
 
+//tamanho de um map
+
+console.log(mapa.size)
+
+
+//testando a existência de uma chave no map
+
+console.log(mapa.has("123"))
+console.log(mapa.has(array))
+
+//deletando um registro
+
+mapa.delete(funcao)
+
+console.log(mapa)
+
 
