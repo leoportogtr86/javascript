@@ -55,3 +55,52 @@ mapa.clear()
 console.log(mapa)
 
 
+mapa.set("um", 1)
+mapa.set("dois", 2)
+mapa.set("três", 3)
+mapa.set("quatro", 4)
+mapa.set("cinco", 5)
+mapa.set("seis", 6)
+mapa.set("sete", 7)
+mapa.set("oito", 8)
+mapa.set("nove", 9)
+mapa.set("dez", 10)
+
+
+//iterando em maps
+
+
+//retornando chave e valor
+for (const e of mapa) {
+
+    console.log(e)
+
+}
+
+
+//retornando chaves
+for (const e of mapa.keys()) {
+
+    console.log(e)
+
+}
+
+
+
+//retornando valores
+for (const e of mapa.values()) {
+
+    console.log(e)
+
+}
+
+
+//retornando chave e valor
+for (const e of mapa.entries()) {
+
+    console.log(e)
+
+}
+
+
+
