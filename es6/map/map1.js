@@ -48,3 +48,10 @@ mapa.delete(funcao)
 console.log(mapa)
 
 
+
+//limpando todos os dados do map
+mapa.clear()
+
+console.log(mapa)
+
+
