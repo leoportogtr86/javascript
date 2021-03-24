@@ -6,6 +6,16 @@ class Musica {
         this.autor = autor
 
     }
+
+    getTitulo() {
+
+        return this.titulo
+    }
+
+    getAutor() {
+
+        return this.autor
+    }
 }
 
 
@@ -15,3 +25,6 @@ console.log(m1)
 
 console.log(typeof m1)
 console.log(typeof Musica)
+
+console.log(m1.getTitulo())
+console.log(m1.getAutor())
