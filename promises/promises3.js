@@ -13,8 +13,6 @@ let promessa = new Promise((resolve, reject) => {
 })
 
 
-
-
 promessa
     .then(res => console.log(res))
     .catch((err) => {

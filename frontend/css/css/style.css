@@ -1,3 +1,9 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
 :root{
 
     --pretinho: #222;
@@ -74,4 +80,47 @@ svg{
 #haste{
 
     animation: trocaCor 5s linear infinite;
+}
+
+header{
+
+    height: 70px;
+    width: 100%;
+    box-shadow: 1px 1px 15px rgb(241, 121, 121);
+    background-color: #eb5889;
+    position: absolute;
+    top: 0px;
+
+}
+
+.menu{ 
+
+    display: flex;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.menu li{
+
+    padding: 5px;
+    margin-left: 30px;
+    margin-top: 15px;
+    display: block;
+    font-weight: 500;
+}
+
+.menu li a{
+
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.menu li a:hover{
+
+    filter: brightness(0.9);
+
+    
 }

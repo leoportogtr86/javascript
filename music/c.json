@@ -1,0 +1,219 @@
+{
+    "work": {
+        "work-title": []
+    },
+    "identification": {
+        "encoding": {
+            "software": "TuxGuitar"
+        },
+        "creator": {
+            "@type": "composer"
+        }
+    },
+    "part-list": {
+        "score-part": {
+            "@id": "P1",
+            "part-name": [],
+            "score-instrument": {
+                "@id": "P1-I1",
+                "instrument-name": "#1"
+            },
+            "midi-instrument": {
+                "@id": "P1-I1",
+                "midi-channel": "1",
+                "midi-program": "1"
+            }
+        }
+    },
+    "part": {
+        "@id": "P1",
+        "measure": [
+            {
+                "@number": "1",
+                "attributes": {
+                    "divisions": "960",
+                    "key": {
+                        "fifths": "0",
+                        "mode": "major"
+                    },
+                    "clef": {
+                        "sign": "G",
+                        "line": "2"
+                    },
+                    "time": {
+                        "beats": "4",
+                        "beat-type": "4"
+                    },
+                    "staff-details": {
+                        "staff-lines": "6",
+                        "staff-tuning": [
+                            {
+                                "@line": "1",
+                                "tuning-step": "E",
+                                "tuning-octave": "3"
+                            },
+                            {
+                                "@line": "2",
+                                "tuning-step": "A",
+                                "tuning-octave": "3"
+                            },
+                            {
+                                "@line": "3",
+                                "tuning-step": "D",
+                                "tuning-octave": "4"
+                            },
+                            {
+                                "@line": "4",
+                                "tuning-step": "G",
+                                "tuning-octave": "4"
+                            },
+                            {
+                                "@line": "5",
+                                "tuning-step": "B",
+                                "tuning-octave": "4"
+                            },
+                            {
+                                "@line": "6",
+                                "tuning-step": "E",
+                                "tuning-octave": "5"
+                            }
+                        ]
+                    }
+                },
+                "direction": {
+                    "@placement": "above",
+                    "sound": {
+                        "@tempo": "120"
+                    }
+                },
+                "note": [
+                    {
+                        "pitch": {
+                            "step": "C",
+                            "octave": "5"
+                        },
+                        "notations": {
+                            "technical": {
+                                "fret": "1",
+                                "string": "2"
+                            }
+                        },
+                        "voice": "1",
+                        "duration": "960",
+                        "type": "quarter"
+                    },
+                    {
+                        "pitch": {
+                            "step": "D",
+                            "octave": "5"
+                        },
+                        "notations": {
+                            "technical": {
+                                "fret": "3",
+                                "string": "2"
+                            }
+                        },
+                        "voice": "1",
+                        "duration": "960",
+                        "type": "quarter"
+                    },
+                    {
+                        "pitch": {
+                            "step": "E",
+                            "octave": "5"
+                        },
+                        "notations": {
+                            "technical": {
+                                "fret": "0",
+                                "string": "1"
+                            }
+                        },
+                        "voice": "1",
+                        "duration": "960",
+                        "type": "quarter"
+                    },
+                    {
+                        "pitch": {
+                            "step": "F",
+                            "octave": "5"
+                        },
+                        "notations": {
+                            "technical": {
+                                "fret": "1",
+                                "string": "1"
+                            }
+                        },
+                        "voice": "1",
+                        "duration": "960",
+                        "type": "quarter"
+                    }
+                ]
+            },
+            {
+                "@number": "2",
+                "note": [
+                    {
+                        "pitch": {
+                            "step": "G",
+                            "octave": "5"
+                        },
+                        "notations": {
+                            "technical": {
+                                "fret": "3",
+                                "string": "1"
+                            }
+                        },
+                        "voice": "1",
+                        "duration": "960",
+                        "type": "quarter"
+                    },
+                    {
+                        "pitch": {
+                            "step": "A",
+                            "octave": "5"
+                        },
+                        "notations": {
+                            "technical": {
+                                "fret": "5",
+                                "string": "1"
+                            }
+                        },
+                        "voice": "1",
+                        "duration": "960",
+                        "type": "quarter"
+                    },
+                    {
+                        "pitch": {
+                            "step": "B",
+                            "octave": "5"
+                        },
+                        "notations": {
+                            "technical": {
+                                "fret": "7",
+                                "string": "1"
+                            }
+                        },
+                        "voice": "1",
+                        "duration": "960",
+                        "type": "quarter"
+                    },
+                    {
+                        "pitch": {
+                            "step": "C",
+                            "octave": "6"
+                        },
+                        "notations": {
+                            "technical": {
+                                "fret": "8",
+                                "string": "1"
+                            }
+                        },
+                        "voice": "1",
+                        "duration": "960",
+                        "type": "quarter"
+                    }
+                ]
+            }
+        ]
+    }
+}
